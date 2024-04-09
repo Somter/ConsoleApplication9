@@ -88,7 +88,7 @@ int main()
 
 	Buyer* o1 = new ConcreteBuyer(pBuy);	
 	Buyer* o2 = new ConcreteBuyer(pBuy);	
-	Buyer* o3 = new ConcreteBuyer(pBuy);		
+	Buyer* o3 = new ConcreteBuyer(pBuy);	 	
 
 	pBuy->Attach(o1);	
 	pBuy->Attach(o2);	
